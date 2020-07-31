@@ -1,3 +1,4 @@
+
 /******************
   Ejemplo Persona
 *******************/
@@ -106,22 +107,22 @@ console.log("objeto manacor, dime tu distancia al origen: ", manacor.obtener_dis
 
 var pepita = new Cotorra()
 
-console.log("A ver como canta pepitaaaaa: ", pepita.cantar())
+console.log("-- A ver como canta pepitaaaaa: ", pepita.cantar())
 
-console.log("Pepita, ¿dónde naciste?: ", pepita.obtener_ciudad().obtener_nombre())
+console.log("-- Pepita, ¿dónde naciste?: ", pepita.obtener_ciudad().obtener_nombre())
 
-console.log("Pepita, ¿qué tanta fuerza tienes?: ", pepita.obtener_energia())
+console.log("-- Pepita, ¿qué tanta fuerza tienes?: ", pepita.obtener_energia())
 
 pepita.comer_lombriz()
 console.log(
-  "¡Muy bien Pepita! Hay que alimentarse bien, mira que tan grande y fuerte estás: ",
+  "-- ¡Muy bien Pepita! Hay que alimentarse bien, mira que tan grande y fuerte estás, dime cuánta energía tienes: ",
   pepita.obtener_energia()
 )
 
 console.log("Pepita, sale a dar una vuelta (en el horario permitido, por supuesto).")
 pepita.volar_en_circulos()
-console.log("¡Cuánto ejercicio hiciste Pepita!, debes tener hambre: ", pepita.obtener_energia())
+console.log("-- ¡Cuánto ejercicio hiciste Pepita!, debes tener hambre, , dime cuánta energía tienes: ", pepita.obtener_energia())
 
-console.log("Pepita, ve a visitar a la tía Cata.")
+console.log("-- Pepita, ve a visitar a la tía Cata.")
 pepita.volar_hacia(manacor)
-console.log("Pepita, ¡has vuelto! Qué cansada debes estar: ", pepita.obtener_energia())
+console.log("-- Pepita, ¡has vuelto! Qué cansada debes estar, dime cuánta energía tienes: ", pepita.obtener_energia())
