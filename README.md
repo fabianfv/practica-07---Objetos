@@ -1,6 +1,6 @@
 # Práctica 07 - Ejemplos de Objetos
 
-Abre la consola para ver la salida
+https://fabianfv.github.io/practica-07---Objetos/
 
 Ejemplo Persona
 
